@@ -1,0 +1,24 @@
+.dark-1 {
+    background-color: #212529 !important;
+}
+
+.dark-2 {
+    background-color: #343a40 !important;
+}
+
+.dark-3 {
+    background-color: #495057 !important;
+}
+
+.light-1 {
+    background-color: #ced4da !important;
+}
+
+.light-2 {
+    background-color: #dee2e6 !important;
+}
+
+body,
+.light-3 {
+    background-color: #e9ecef !important;
+}

@@ -1,0 +1,22 @@
+{
+    "name": "nfactorial-homework-0610-npm-storages",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js",
+        "gitPush": "node gitCommand.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Morr231/nfactorial-homework-0610-npm-storages.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Morr231/nfactorial-homework-0610-npm-storages/issues"
+    },
+    "homepage": "https://github.com/Morr231/nfactorial-homework-0610-npm-storages#readme"
+}
