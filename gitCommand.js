@@ -1,24 +1,18 @@
-/**
- * script to use in package.json
- * node g.js real update message
- */
 const { exec } = require("child_process");
 let args = process.argv;
 args.splice(0, 2);
 let str = args.join(" ");
+exec("git add .", commit);
 
-console.log(str);
-exec("git add .", cbadd);
-
-function cbadd(err, strout, sdtin) {
+function commit(err) {
     if (err) {
         console.log(err);
         return;
     }
     //it worked
-    exec(`git commit -m "${str}"`, cbcommit);
+    exec(`git commit -m "${str}"`, push);
 }
-function cbcommit(err, strout, sdtin) {
+function push(err) {
     if (err) {
         console.log(err);
         return;
