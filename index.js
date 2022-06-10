@@ -59,7 +59,7 @@ $("#row").html(
     `${allCards
         .map((song) => {
             return `
-        <div class="col-4 d-flex justify-content-center mb-3">
+        <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-3">
             <div class="card" style="width: 18rem;">
                 <img src="img/keep_going.jpg" class="card-img-top" alt="music-song">
                 <div class="card-body">
